@@ -15,7 +15,7 @@ namespace Esercizio_Vacanze
             }
                 int b = -128;
                 int c = -b;
-                Console.WriteLine(Convert.ToString(b, 2));
+            Console.WriteLine(Convert.ToString(b, 2));
                 Console.WriteLine(Convert.ToString(c, 2));
                 int value = 31;
                 int somma = value;

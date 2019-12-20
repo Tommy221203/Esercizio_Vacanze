@@ -6,6 +6,7 @@ namespace Esercizio_Vacanze
     {
         static void Main(string[] args)
         {
+            //la variabile può contenere valori compresi fra -2147483648(2^32-1) e 2147483647(2^32): si tratta esattamente di 2^32 = 4294967296 valori suddivisi fra negativi e positivi. quindi l'output alla riga 10 è il valore massimo ottenibile, mentre quello alla riga 11 è il valore minimo, cioè  2^31, quindi l'ultimo bit è occupato dal segno meno.
             int a = int.MaxValue;
             Console.WriteLine(a);
             Console.WriteLine(a + 1);
